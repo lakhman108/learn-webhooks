@@ -1,0 +1,28 @@
+{
+  "name": "learn-webhooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "receiver.js",
+  "scripts": {
+    "dev":"nodemon reciver.js & nodemon sender.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakhman108/learn-webhooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lakhman108/learn-webhooks/issues"
+  },
+  "homepage": "https://github.com/lakhman108/learn-webhooks#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
