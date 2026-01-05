@@ -2,9 +2,11 @@
   "name": "learn-webhooks",
   "version": "1.0.0",
   "description": "",
-  "main": "receiver.js",
+  "main": "main.js",
   "scripts": {
-    "dev":"nodemon reciver.js & nodemon sender.js",
+    "dev": "nodemon basic/reciver.js & nodemon basic/sender.js",
+    "send": " nodemon security/send.js",
+    "rec":"nodemon security/rec.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +22,9 @@
   },
   "homepage": "https://github.com/lakhman108/learn-webhooks#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "crypto": "^1.0.1",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
